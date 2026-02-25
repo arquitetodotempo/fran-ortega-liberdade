@@ -24,15 +24,16 @@ const AboutSection = () => {
           <ScrollReveal direction="left">
             <div className="flex justify-center">
               <div className="relative">
-                <div className="absolute -inset-4 rounded-xl border-2 border-gold/30 shadow-2xl" />
-                <div className="bg-gradient-to-br from-green/20 to-gold/20 rounded-xl p-8 text-center">
-                  <Heart size={64} className="text-gold mx-auto mb-4" />
-                  <p className="font-heading text-lg font-bold text-foreground mb-2">
-                    Fran Ortega
-                  </p>
-                  <p className="font-body text-sm text-muted-foreground">
-                    Mulher, Mãe, Contadora
-                  </p>
+                {/* Glow effect */}
+                <div className="absolute -inset-4 bg-gradient-to-br from-green/30 to-gold/30 rounded-2xl blur-2xl" />
+                
+                {/* Image */}
+                <div className="relative bg-white rounded-2xl p-2 border-2 border-gold/30 shadow-2xl">
+                  <img
+                    src="/about-fran.png"
+                    alt="Fran Ortega - Especialista em Liberdade Financeira"
+                    className="w-full max-w-sm h-auto rounded-xl"
+                  />
                 </div>
               </div>
             </div>
