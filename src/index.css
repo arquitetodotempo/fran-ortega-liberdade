@@ -9,52 +9,54 @@
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Montserrat', sans-serif;
 
-    /* F. Ortega Liberdade - Paleta B2C (Mulheres) - HSL */
-    /* Verde Esperança */
-    --background: 140 47% 96%;
-    --foreground: 140 47% 20%;
+    /* F. Ortega Liberdade - Paleta B2C SUAVE (Mulheres) - HSL */
+    /* Cores mais suaves e sofisticadas */
+    
+    /* Verde Sálvia Suave */
+    --background: 140 25% 97%;
+    --foreground: 140 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 140 47% 20%;
+    --card-foreground: 140 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 140 47% 20%;
+    --popover-foreground: 140 25% 15%;
 
-    /* Verde Esperança - Cor Primária */
-    --primary: 140 47% 34%;
+    /* Verde Sálvia - Mais suave */
+    --primary: 140 25% 50%;
     --primary-foreground: 0 0% 100%;
 
-    /* Dourado Sucesso - Cor Secundária */
-    --secondary: 43 69% 47%;
+    /* Dourado Champanhe - Mais sofisticado */
+    --secondary: 43 50% 65%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 140 20% 88%;
-    --muted-foreground: 140 10% 35%;
+    --muted: 140 15% 92%;
+    --muted-foreground: 140 10% 45%;
 
-    /* Coral Energia - Cor de Destaque/Ação */
-    --accent: 0 100% 71%;
+    /* Coral Suave - Menos intenso */
+    --accent: 0 60% 75%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 10 69% 62%;
+    --destructive: 10 50% 65%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 140 15% 82%;
-    --input: 140 15% 82%;
-    --ring: 43 69% 47%;
+    --border: 140 15% 88%;
+    --input: 140 15% 88%;
+    --ring: 43 50% 65%;
 
     --radius: 0.5rem;
 
-    /* Extended tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(140 47% 34%) 0%, hsl(43 69% 47%) 100%);
-    --button-gradient: linear-gradient(135deg, hsl(0 100% 71%) 0%, hsl(43 69% 47%) 100%);
-    --section-alt: 140 20% 94%;
-    --text-light: 140 10% 50%;
-    --gold: 43 69% 47%;
-    --gold-light: 43 70% 55%;
-    --green: 140 47% 34%;
-    --green-light: 140 47% 45%;
-    --coral: 0 100% 71%;
-    --coral-light: 0 100% 75%;
+    /* Extended tokens - Gradientes SUAVES */
+    --hero-gradient: linear-gradient(135deg, hsl(140 25% 50%) 0%, hsl(43 50% 65%) 100%);
+    --button-gradient: linear-gradient(135deg, hsl(0 60% 75%) 0%, hsl(43 50% 65%) 100%);
+    --section-alt: 140 15% 96%;
+    --text-light: 140 10% 55%;
+    --gold: 43 50% 65%;
+    --gold-light: 43 50% 75%;
+    --green: 140 25% 50%;
+    --green-light: 140 25% 60%;
+    --coral: 0 60% 75%;
+    --coral-light: 0 60% 80%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -67,33 +69,33 @@
   }
 
   .dark {
-    --background: 140 47% 12%;
-    --foreground: 140 20% 96%;
-    --card: 140 47% 10%;
-    --card-foreground: 140 20% 96%;
-    --popover: 140 47% 10%;
-    --popover-foreground: 140 20% 96%;
-    --primary: 140 47% 54%;
-    --primary-foreground: 140 47% 12%;
-    --secondary: 43 69% 60%;
-    --secondary-foreground: 140 47% 12%;
+    --background: 140 25% 12%;
+    --foreground: 140 25% 96%;
+    --card: 140 25% 10%;
+    --card-foreground: 140 25% 96%;
+    --popover: 140 25% 10%;
+    --popover-foreground: 140 25% 96%;
+    --primary: 140 25% 60%;
+    --primary-foreground: 140 25% 12%;
+    --secondary: 43 50% 75%;
+    --secondary-foreground: 140 25% 12%;
     --muted: 140 20% 22%;
     --muted-foreground: 140 10% 65%;
-    --accent: 0 100% 80%;
-    --accent-foreground: 140 47% 12%;
-    --destructive: 10 69% 50%;
-    --destructive-foreground: 140 20% 96%;
+    --accent: 0 60% 80%;
+    --accent-foreground: 140 25% 12%;
+    --destructive: 10 50% 55%;
+    --destructive-foreground: 140 25% 96%;
     --border: 140 20% 22%;
     --input: 140 20% 22%;
-    --ring: 43 69% 60%;
-    --sidebar-background: 140 47% 8%;
+    --ring: 43 50% 75%;
+    --sidebar-background: 140 25% 8%;
     --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 140 47% 54%;
+    --sidebar-primary: 140 25% 60%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 140 20% 14%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 140 20% 14%;
-    --sidebar-ring: 140 47% 54%;
+    --sidebar-ring: 140 25% 60%;
   }
 }
 

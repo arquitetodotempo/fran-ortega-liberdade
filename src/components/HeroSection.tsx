@@ -7,22 +7,10 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Background Image com Overlay MAIS ESCURO */}
-      <div 
-        className="absolute inset-0 bg-cover bg-no-repeat bg-top"
-        style={{
-          backgroundImage: `url(/hero-woman.png)`,
-          backgroundPosition: 'top right',
-        }}
-      >
-        {/* Overlay Gradient MAIS ESCURO para legibilidade */}
-        <div className="absolute inset-0 bg-gradient-to-b from-green/95 via-green/90 to-green/85" />
-      </div>
-
+    <section className="gradient-hero min-h-screen flex items-center pt-20 relative overflow-hidden">
       {/* Pattern Sutil */}
-      <div className="absolute inset-0 opacity-[0.05]" style={{
-        backgroundImage: 'linear-gradient(hsl(43 69% 47%) 1px, transparent 1px), linear-gradient(90deg, hsl(43 69% 47%) 1px, transparent 1px)',
+      <div className="absolute inset-0 opacity-[0.03]" style={{
+        backgroundImage: 'linear-gradient(hsl(43 50% 65%) 1px, transparent 1px), linear-gradient(90deg, hsl(43 50% 65%) 1px, transparent 1px)',
         backgroundSize: '60px 60px'
       }} />
 
@@ -43,7 +31,7 @@ const HeroSection = () => {
             <span className="block text-gold mt-3 drop-shadow">Estão Saindo Das Dívidas em 12 Meses</span>
           </h1>
 
-          <div className="gold-line w-24 mb-6" style={{ background: 'linear-gradient(90deg, transparent, #C9A227, transparent)' }} />
+          <div className="gold-line w-24 mb-6" style={{ background: 'linear-gradient(90deg, transparent, #D4B76E, transparent)' }} />
 
           <p className="font-body text-lg text-white/95 mb-4 leading-relaxed drop-shadow">
             Um método acolhedor e prático, criado por uma mulher que entende sua jornada.
@@ -92,26 +80,30 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
         >
           <div className="relative">
-            {/* Glow effect behind image */}
-            <div className="absolute -inset-6 bg-gradient-to-br from-gold/40 to-green/40 rounded-3xl blur-3xl" />
+            {/* Glow effect behind stats */}
+            <div className="absolute -inset-6 bg-gradient-to-br from-gold/30 to-green/30 rounded-3xl blur-3xl" />
             
-            {/* Image container with border */}
-            <div className="relative bg-white/20 backdrop-blur-md rounded-3xl p-6 border-2 border-white/30 shadow-2xl">
-              <img
-                src="/hero-woman.png"
-                alt="Mulher conquistando liberdade financeira"
-                className="w-full max-w-md h-auto rounded-2xl shadow-2xl"
-              />
-              
-              {/* Stats overlay - MAIS VISÍVEIS */}
-              <div className="absolute -bottom-6 -left-6 bg-gradient-to-br from-gold to-gold-light rounded-xl px-8 py-5 shadow-2xl border-2 border-white/40">
-                <p className="font-heading text-4xl font-bold text-white mb-1 drop-shadow-lg">500+</p>
-                <p className="font-body text-white text-sm font-semibold drop-shadow">Mulheres Libertas</p>
-              </div>
-              
-              <div className="absolute -top-6 -right-6 bg-gradient-to-br from-green to-green-light rounded-xl px-8 py-5 shadow-2xl border-2 border-white/40">
-                <p className="font-heading text-4xl font-bold text-white mb-1 drop-shadow-lg">18</p>
-                <p className="font-body text-white text-sm font-semibold drop-shadow">Meses para Liberdade</p>
+            {/* Stats cards - SEM IMAGEM */}
+            <div className="relative bg-white/20 backdrop-blur-md rounded-3xl p-8 border-2 border-white/30 shadow-2xl">
+              <div className="text-center space-y-6">
+                <div>
+                  <p className="font-heading text-6xl font-bold text-white mb-2 drop-shadow-lg">500+</p>
+                  <p className="font-body text-white text-base font-semibold drop-shadow">Mulheres Libertas</p>
+                </div>
+                
+                <div className="gold-line w-16 mx-auto" />
+                
+                <div>
+                  <p className="font-heading text-5xl font-bold text-gold mb-2 drop-shadow-lg">R$ 15M+</p>
+                  <p className="font-body text-white text-base font-semibold drop-shadow">Dívidas Eliminadas</p>
+                </div>
+                
+                <div className="gold-line w-16 mx-auto" />
+                
+                <div>
+                  <p className="font-heading text-5xl font-bold text-white mb-2 drop-shadow-lg">18</p>
+                  <p className="font-body text-white text-base font-semibold drop-shadow">Meses para Liberdade</p>
+                </div>
               </div>
             </div>
           </div>
