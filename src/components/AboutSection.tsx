@@ -12,7 +12,7 @@ const differentials = [
 const AboutSection = () => {
   return (
     <section id="sobre" className="bg-background py-20 px-4">
-      <div className="container mx-auto max-w-5xl">
+      <div className="container mx-auto max-w-6xl">
         <ScrollReveal>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground text-center mb-4">
             Quem Está Do Outro Lado
@@ -20,19 +20,19 @@ const AboutSection = () => {
           <div className="gold-line w-16 mx-auto mb-12" />
         </ScrollReveal>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-16 items-center">
           <ScrollReveal direction="left">
             <div className="flex justify-center">
               <div className="relative">
                 {/* Glow effect */}
-                <div className="absolute -inset-4 bg-gradient-to-br from-green/30 to-gold/30 rounded-2xl blur-2xl" />
+                <div className="absolute -inset-6 bg-gradient-to-br from-green/30 to-gold/30 rounded-3xl blur-3xl" />
                 
-                {/* Image */}
-                <div className="relative bg-white rounded-2xl p-2 border-2 border-gold/30 shadow-2xl">
+                {/* Image - MAIOR */}
+                <div className="relative bg-white rounded-3xl p-3 border-2 border-gold/30 shadow-2xl">
                   <img
                     src="/about-fran.png"
                     alt="Fran Ortega - Especialista em Liberdade Financeira"
-                    className="w-full max-w-sm h-auto rounded-xl"
+                    className="w-full max-w-md h-auto rounded-2xl"
                   />
                 </div>
               </div>
