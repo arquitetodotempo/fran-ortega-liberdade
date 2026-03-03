@@ -61,7 +61,7 @@ npm run preview
 ## 📁 ESTRUTURA DO PROJETO
 
 ```
-fran-liberdade/
+fran-ortega-liberdade/
 ├── src/
 │   ├── components/
 │   │   ├── HeroSection.tsx         ← Headline principal
