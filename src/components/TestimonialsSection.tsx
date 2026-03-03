@@ -11,13 +11,13 @@ const testimonials = [
   {
     stars: 5,
     quote: "Empresária falida. R$ 350.000 em dívidas. Depois da pandemia, meu negócio faliu. Fiquei com dívidas pessoais de R$ 350.000. Pensei em declarar falência. Então conheci o método da Fran. Em 24 meses, paguei R$ 250.000. Os outros R$ 100.000 foram negociados e eliminados. Hoje, tenho um novo negócio. E estou sem dívidas. A Fran me salvou da ruína.",
-    author: "Ricardo Santos",
+    author: "Patricia Almeida",
     role: "Empresária, Rio de Janeiro, 51 anos",
   },
   {
     stars: 5,
     quote: "Jovem endividada aos 25 anos. Cartão de crédito, compras online, 'compre agora pague depois'. Quando percebi, devia R$ 50.000. Ganhava R$ 3.500 por mês. A Fran não me julgou. Criou um plano. Em 14 meses, paguei tudo. Aprendi a gerir dinheiro. Hoje, tenho R$ 40.000 poupados. De endividada a poupadora. Obrigada, Fran.",
-    author: "Sofia Oliveira",
+    author: "Juliana Costa",
     role: "Assistente Administrativa, Belo Horizonte, 27 anos",
   },
 ];
