@@ -139,13 +139,13 @@ fran-liberdade/
 1. Aceder https://pages.cloudflare.com
 2. "Create a project"
 3. "Connect to GitHub"
-4. Selecionar: `arquitetodotempo/fran-liberdade`
+4. Selecionar: `arquitetodotempo/fran-ortega-liberdade`
 5. Build settings:
    - Build command: `npm run build`
    - Output directory: `dist`
 6. "Save and Deploy"
 
-**URL:** `https://fran-liberdade.pages.dev`
+**URL:** `https://fran-ortega-liberdade.pages.dev`
 
 ### Wrangler CLI (Alternativa)
 
@@ -160,7 +160,7 @@ wrangler login
 npm run build
 
 # Deploy
-wrangler pages deploy dist --project-name=fran-liberdade
+wrangler pages deploy dist --project-name=fran-ortega-liberdade
 ```
 
 ---
@@ -187,10 +187,10 @@ wrangler pages deploy dist --project-name=fran-liberdade
 ## 🔗 LINKS ÚTEIS
 
 ### Repositório:
-- **GitHub:** https://github.com/arquitetodotempo/fran-liberdade
+- **GitHub:** https://github.com/arquitetodotempo/fran-ortega-liberdade
 
 ### Site:
-- **Produção:** https://fran-liberdade.pages.dev
+- **Produção:** https://fran-ortega-liberdade.pages.dev
 - **Domínio:** liberdade.fortega.com.br (opcional)
 
 ### Documentação:
