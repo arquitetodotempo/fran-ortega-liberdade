@@ -90,8 +90,8 @@ const HeroSection = () => {
             />
           </div>
 
-          {/* Stats Cards - Por baixo da imagem */}
-          <div className="grid grid-cols-3 gap-4 w-full max-w-md mt-4">
+          {/* Stats Cards - Sobrepor 10% na imagem */}
+          <div className="grid grid-cols-3 gap-4 w-full max-w-md -mt-12 relative z-20">
             <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 text-center border-2 border-green/30 shadow-lg">
               <p className="font-heading text-3xl font-bold text-teal mb-1">500+</p>
               <p className="font-body text-xs text-foreground/70 font-semibold">Mulheres Libertas</p>
