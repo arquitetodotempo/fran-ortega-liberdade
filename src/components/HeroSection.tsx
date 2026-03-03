@@ -81,7 +81,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
         >
           {/* Imagem Mulher de Sucesso - Sem fundo branco */}
-          <div className="relative w-full max-w-md">
+          <div className="relative w-full max-w-2xl">
             <div className="absolute -inset-4 bg-gradient-to-br from-gold/30 to-green/30 rounded-2xl blur-2xl" />
             <img
               src="/mulher-sucesso.png"
