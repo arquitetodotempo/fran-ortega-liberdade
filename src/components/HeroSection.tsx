@@ -84,7 +84,7 @@ const HeroSection = () => {
           <div className="relative w-full max-w-2xl">
             <div className="absolute -inset-4 bg-gradient-to-br from-gold/30 to-green/30 rounded-2xl blur-2xl" />
             <img
-              src="/mulher-sucesso.png"
+              src="/mulher-sucesso01.png"
               alt="Mulher de sucesso conquistando liberdade financeira"
               className="w-full h-auto rounded-2xl relative z-10"
             />
