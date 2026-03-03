@@ -5,7 +5,7 @@ const testimonials = [
   {
     stars: 5,
     quote: "Tinha R$ 150.000 em dívidas: cartão de crédito, empréstimo pessoal, e um financiamento de carro. Não conseguia dormir. Discutia com meu marido todas as semanas. A Fran criou um plano, negociou com os bancos, e em 18 meses... Estava livre. E economizando R$ 2.000 por mês. Hoje, tenho fundo de emergência e estou investindo. A Fran me deu minha vida de volta.",
-    author: "Carla Mendes",
+    author: "Viviane Mendes",
     role: "Enfermeira, São Paulo, 42 anos",
   },
   {
