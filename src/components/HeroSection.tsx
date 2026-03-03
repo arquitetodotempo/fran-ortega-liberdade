@@ -80,16 +80,14 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
         >
-          {/* Imagem Mulher de Sucesso */}
+          {/* Imagem Mulher de Sucesso - Sem fundo branco */}
           <div className="relative w-full max-w-md">
             <div className="absolute -inset-4 bg-gradient-to-br from-gold/30 to-green/30 rounded-2xl blur-2xl" />
-            <div className="relative bg-white rounded-2xl p-4 border-2 border-gold/30 shadow-2xl">
-              <img
-                src="/mulher-sucesso.png"
-                alt="Mulher de sucesso conquistando liberdade financeira"
-                className="w-full h-auto rounded-xl"
-              />
-            </div>
+            <img
+              src="/mulher-sucesso.png"
+              alt="Mulher de sucesso conquistando liberdade financeira"
+              className="w-full h-auto rounded-2xl relative z-10"
+            />
           </div>
 
           {/* Stats Cards - Por baixo da imagem */}
