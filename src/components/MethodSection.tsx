@@ -68,7 +68,7 @@ const phases = [
 
 const MethodSection = () => {
   return (
-    <section className="bg-background py-20 px-4">
+    <section id="metodo" className="bg-background py-20 px-4">
       <div className="container mx-auto max-w-5xl">
         <ScrollReveal>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground text-center mb-4">

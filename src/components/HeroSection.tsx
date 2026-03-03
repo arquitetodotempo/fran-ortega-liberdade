@@ -75,23 +75,23 @@ const HeroSection = () => {
 
         {/* Lado Direito - Imagem + Stats */}
         <motion.div
-          className="hidden md:flex flex-col items-center gap-8"
+          className="hidden md:flex flex-col items-center gap-8 relative"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
         >
           {/* Imagem Mulher de Sucesso - Sem fundo branco */}
-          <div className="relative w-full max-w-2xl">
+          <div className="relative w-full">
             <div className="absolute -inset-4 bg-gradient-to-br from-gold/30 to-green/30 rounded-2xl blur-2xl" />
             <img
-              src="/mulher-sucesso02.png"
+              src="/mulher-sucesso03.png"
               alt="Mulher de sucesso conquistando liberdade financeira"
-              className="w-full h-auto rounded-2xl relative z-10"
+              className="w-full h-auto rounded-2xl relative z-10 scale-150 origin-center"
             />
           </div>
 
-          {/* Stats Cards - Sobrepor 10% na imagem */}
-          <div className="grid grid-cols-3 gap-4 w-full max-w-md -mt-12 relative z-20">
+          {/* Stats Cards - Apenas 10% do topo toca na imagem */}
+          <div className="grid grid-cols-3 gap-4 w-full -mt-4 relative z-20">
             <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 text-center border-2 border-green/30 shadow-lg">
               <p className="font-heading text-3xl font-bold text-teal mb-1">500+</p>
               <p className="font-body text-xs text-foreground/70 font-semibold">Mulheres Libertas</p>

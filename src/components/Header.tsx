@@ -29,9 +29,10 @@ const Header = () => {
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
           {[
-            { label: "Serviços", id: "servicos" },
-            { label: "Sobre", id: "sobre" },
+            { label: "Método", id: "metodo" },
             { label: "Resultados", id: "resultados" },
+            { label: "Testemunhos", id: "testemunhos" },
+            { label: "Sobre", id: "sobre" },
             { label: "FAQ", id: "faq" },
           ].map((item) => (
             <button
@@ -60,9 +61,10 @@ const Header = () => {
       {mobileOpen && (
         <nav className="md:hidden bg-primary border-t border-primary-foreground/10 px-4 pb-4 flex flex-col gap-3">
           {[
-            { label: "Serviços", id: "servicos" },
-            { label: "Sobre", id: "sobre" },
+            { label: "Método", id: "metodo" },
             { label: "Resultados", id: "resultados" },
+            { label: "Testemunhos", id: "testemunhos" },
+            { label: "Sobre", id: "sobre" },
             { label: "FAQ", id: "faq" },
           ].map((item) => (
             <button

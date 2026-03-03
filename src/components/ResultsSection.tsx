@@ -26,7 +26,7 @@ const stats = [
 
 const ResultsSection = () => {
   return (
-    <section className="bg-green/10 py-20 px-4">
+    <section id="resultados" className="bg-green/10 py-20 px-4">
       <div className="container mx-auto max-w-5xl">
         <ScrollReveal>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground text-center mb-4">
