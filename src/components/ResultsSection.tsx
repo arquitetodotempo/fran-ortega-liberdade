@@ -38,7 +38,7 @@ const ResultsSection = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {stats.map((stat, i) => (
             <ScrollReveal key={i} delay={i * 0.1}>
-              <div className="bg-background p-6 rounded-xl shadow-md text-center border border-gold/20">
+              <div className="bg-background p-6 rounded-xl shadow-md text-center border border-gold/20 h-full flex flex-col items-center justify-center">
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-gold/10 rounded-full mb-4">
                   <stat.icon size={24} className="text-gold" />
                 </div>
